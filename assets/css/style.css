@@ -4,6 +4,23 @@
     box-sizing: border-box;
 }
 
+.hero{
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-form{
+    background-color: #fce138;
+    color: #024e76;
+    padding: 20px;
+    width: 500px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #024e76;
+}
+
 body {
     /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
@@ -65,4 +82,8 @@ footer div {
 
 footer a {
     color: #024e76;
+}
+
+section{
+    padding: 60px;
 }
